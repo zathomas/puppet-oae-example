@@ -12,7 +12,7 @@
 	url = http://github.com/efroese/puppet-pacemaker.git
 [submodule "modules/oae"]
 	path = modules/oae
-	url = http://github.com/efroese/puppet-oae.git
+	url = http://github.com/zathomas/puppet-oae.git
 [submodule "modules/tomcat6"]
 	path = modules/tomcat6
 	url = http://github.com/efroese/puppet-tomcat6.git
