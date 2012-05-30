@@ -107,13 +107,6 @@ node 'oae-standalone.localdomain' inherits oaenode {
     }
 
     ###########################################################################
-    # Preview processor
-    class { 'oae::preview_processor::init':
-        admin_password => $localconfig::admin_password,
-        upload_url   => "https://${localconfig::http_name}/",
-    }
-
-    ###########################################################################
     #
     # Postgres Database Server
     #
